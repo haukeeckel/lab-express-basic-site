@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  overflow: hidden;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: tomato;
+}
+
+main {
+  width: 100vw;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 5rem;
+  background-color: white;
+}
